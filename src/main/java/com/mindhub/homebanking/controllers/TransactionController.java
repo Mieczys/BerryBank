@@ -48,7 +48,10 @@ public class TransactionController {
         Account cuentaDestino;
 
         if (toAccountNumber.length()>10){
-            cuentaDestino=this.accountRepository.findByCbu(toAccountNumber);
+            if (toAccountNumber.contains("."))
+                cuentaDestino=this.accountRepository.findByAlias(toAccountNumber);
+            else
+                cuentaDestino=this.accountRepository.findByCbu(toAccountNumber);
         } else{
             cuentaDestino=this.accountRepository.findByNumber(toAccountNumber);
         }

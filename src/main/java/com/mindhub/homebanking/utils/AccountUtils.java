@@ -1,22 +1,16 @@
 package com.mindhub.homebanking.utils;
-
 import org.springframework.util.ResourceUtils;
-
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.Random;
 
 public class AccountUtils {
-
     public AccountUtils() {
     }
-
     public static String generateNewAlias() throws IOException {
         return (getRandomWord() + "." + getRandomWord() + "." + getRandomWord());
     }
-
     private static String getRandomWord() throws IOException {
         // cargamos el archivo static/words.txt en la variable words
         File words = ResourceUtils.getFile("classpath:static/words.txt");
@@ -32,7 +26,6 @@ public class AccountUtils {
         Collections.shuffle(list);
         return list.get(0);
     }
-
     public static String generateNewCBU(String number) {
         return ("0017" + (int) (Math.random() * (100)) + (int) (Math.random() * (100000000))+ number.substring(4)+ (int) (Math.random() * (10)));
     }
