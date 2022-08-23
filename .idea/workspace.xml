@@ -4,8 +4,61 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78301e82-dc2d-47fc-be92-4d4e5d46330a" name="Changes" comment="Cambio de HTML Y JS Transactions">
+    <list default="true" id="4ee5fe6d-a326-43f1-b2be-ea41fa428d3f" name="Changes" comment="Cambio de HTML Y JS Transactions">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mindhub/homebanking/utils/AccountUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/web/assets/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/words.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mindhub/homebanking/controllers/AccountController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mindhub/homebanking/controllers/AccountController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mindhub/homebanking/controllers/ClientController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mindhub/homebanking/controllers/ClientController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mindhub/homebanking/controllers/TransactionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mindhub/homebanking/controllers/TransactionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mindhub/homebanking/dtos/AccountDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mindhub/homebanking/dtos/AccountDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mindhub/homebanking/models/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mindhub/homebanking/models/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mindhub/homebanking/models/Transaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mindhub/homebanking/models/Transaction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mindhub/homebanking/repositories/AccountRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mindhub/homebanking/repositories/AccountRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.mindhub.homebanking.CardUtilsTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.mindhub.homebanking.CardUtilsTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.mindhub.homebanking.HomebankingApplicationTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.mindhub.homebanking.HomebankingApplicationTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.mindhub.homebanking.RepositoriesTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.mindhub.homebanking.RepositoriesTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.mindhub.homebanking.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.mindhub.homebanking.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/web/account.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/web/account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/web/accounts.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/web/accounts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/web/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/web/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/web/js/transfers.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/web/js/transfers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/web/transfers.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/web/transfers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.mindhub.homebanking.CardUtilsTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.mindhub.homebanking.CardUtilsTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.mindhub.homebanking.HomebankingApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.mindhub.homebanking.HomebankingApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.mindhub.homebanking.RepositoriesTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.mindhub.homebanking.RepositoriesTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mindhub/homebanking/HomebankingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mindhub/homebanking/HomebankingApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mindhub/homebanking/controllers/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mindhub/homebanking/controllers/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mindhub/homebanking/controllers/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mindhub/homebanking/controllers/ClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mindhub/homebanking/dtos/AccountDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mindhub/homebanking/dtos/AccountDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mindhub/homebanking/models/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mindhub/homebanking/models/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mindhub/homebanking/repositories/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mindhub/homebanking/repositories/AccountRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mindhub/homebanking/repositories/CardRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mindhub/homebanking/repositories/CardRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mindhub/homebanking/repositories/ClientLoanRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mindhub/homebanking/repositories/ClientLoanRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mindhub/homebanking/repositories/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mindhub/homebanking/repositories/ClientRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mindhub/homebanking/repositories/LoanRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mindhub/homebanking/repositories/LoanRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mindhub/homebanking/repositories/TransactionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mindhub/homebanking/repositories/TransactionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/web/account.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/web/account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/web/accounts.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/web/accounts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/web/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/web/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/web/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +94,12 @@
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="application" type="c8890929:TasksNode$1" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="homebanking" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -48,10 +107,17 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="CBU" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -60,25 +126,25 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Diuu8kQL1t3AT72yPwcGj4tKJF" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/lucia.saederup/Desktop/Proyectos Java - MINDHUB-/Wolox",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.general"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lucia.saederup/Desktop/Proyectos Java - MINDHUB-/Wolox&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="BerryBank [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>

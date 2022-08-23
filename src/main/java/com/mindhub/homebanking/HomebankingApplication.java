@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-@SpringBootApplication //indica que es un projecto que lo maneja Spring
+@SpringBootApplication //indica que es un proyecto que lo maneja Spring
 public class HomebankingApplication {
 
 	public static void main(String[] args) {
