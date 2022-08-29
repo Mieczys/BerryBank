@@ -11,6 +11,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 
 import java.time.Instant;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 
@@ -53,36 +54,10 @@ public class HomebankingApplication {
 			accountRepository.save(account1);
 			accountRepository.save(account2);
 
-/*
-			Transaction transaction3= new Transaction(TransactionType.CREDIT, 200.44,"prueba1");
-			Transaction transaction4= new Transaction(TransactionType.DEBIT, -100.00,"prueba2");
 
-
-			account1.addTransaction(transaction3);
-			account1.addTransaction(transaction4);
-
-
-			transactionRepository.save(transaction3);
-			transactionRepository.save(transaction4);
-*/
-			List<Integer> paymentsHipotecario = new ArrayList<>();
-			paymentsHipotecario.add(12);
-			paymentsHipotecario.add(24);
-			paymentsHipotecario.add(36);
-			paymentsHipotecario.add(48);
-			paymentsHipotecario.add(60);
-
-			List<Integer> paymentsPersonal= new ArrayList<>();
-			paymentsPersonal.add(6);
-			paymentsPersonal.add(12);
-			paymentsPersonal.add(24);
-
-			List<Integer> paymentsAutomotriz= new ArrayList<>();
-			paymentsAutomotriz.add(6);
-			paymentsAutomotriz.add(12);
-			paymentsAutomotriz.add(24);
-			paymentsAutomotriz.add(36);
-
+			List<Integer> paymentsHipotecario = new ArrayList<>(Arrays.asList(6,12,24,36,48,60));
+			List<Integer> paymentsPersonal = new ArrayList<>(Arrays.asList(6,12,24));
+			List<Integer> paymentsAutomotriz = new ArrayList<>(Arrays.asList(6,12,24,36));
 
 
 
@@ -93,21 +68,6 @@ public class HomebankingApplication {
 			loanRepository.save(loan1);
 			loanRepository.save(loan2);
 			loanRepository.save(loan3);
-
-
-			//ClientLoan clientLoan1= new ClientLoan(20000.00, 6, client1,loan3);
-			//ClientLoan clientLoan2=new ClientLoan(100000.00,12,client1,loan2);
-			//clientLoanRepository.save(clientLoan1);
-			//clientLoanRepository.save(clientLoan2);
-
-			/*
-			Card card1=new Card("0665 2234 4392 2388", 123, CardType.DEBIT, CardColor.GOLD, client1);
-			Card card2=new Card(CardType.CREDIT,CardColor.TITANIUM,client1);
-
-			cardRepository.save(card1);
-			cardRepository.save(card2);
-			*/
-
 
 		};
 	}
