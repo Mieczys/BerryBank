@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78301e82-dc2d-47fc-be92-4d4e5d46330a" name="Changes" comment="Agrego Procfile">
+    <list default="true" id="78301e82-dc2d-47fc-be92-4d4e5d46330a" name="Changes" comment="Cambios de 0.0.1-SNAPSHOT to *">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -382,7 +384,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661801693142</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Cambios de 0.0.1-SNAPSHOT">
+      <created>1661802038921</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1661802038921</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Cambios de 0.0.1-SNAPSHOT to *">
+      <created>1661802490189</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1661802490189</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -453,6 +469,8 @@
     <MESSAGE value="Cambios en HomeBApplication&#10;y cambio de version graddle" />
     <MESSAGE value="agrego puerto a properties" />
     <MESSAGE value="Agrego Procfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Agrego Procfile" />
+    <MESSAGE value="Cambios de 0.0.1-SNAPSHOT" />
+    <MESSAGE value="Cambios de 0.0.1-SNAPSHOT to *" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambios de 0.0.1-SNAPSHOT to *" />
   </component>
 </project>
